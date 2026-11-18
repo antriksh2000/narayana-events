@@ -134,7 +134,7 @@ function Clients() {
           {clients.map((client) => (
             <li
               key={client.logo}
-              className="client-cell flex h-24 items-center justify-center px-4"
+              className="client-cell flex h-20 min-w-0 items-center justify-center px-3 sm:h-24 sm:px-4"
               title={client.name}
             >
               <img
